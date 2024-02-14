@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+   display: flex;
+   justify-content: center;
+    margin-top: 7%;
+}
+.maincontainer{
+    width: 25%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px 5px gray;
+    background-image: url('Bg-1.png');
+}
+
+.container {
+    text-align: center;
+    color: #fff;
+    
+}
+
+input {
+    margin-top: 10%;
+    padding: 8px;
+    width: 70%;
+    border-radius: 50px;
+    border: none;
+}
+
+button {
+    width: 13%;
+    height: 39px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+}
+
+.Weather_div{
+    width: 100%;
+}
+#weatherInfo {
+    margin-top: 20px;
+}
+
+#temperature
+{
+    font-size: 52px;
+    color: white;
+}
+
+#windSpeed{
+    margin-top: 78%;
+    color: white;
+    margin-left: 58%;
+    font-size: 24px;
+}
+
+#humidity{
+   position: absolute;
+   top: 65%;
+   margin-left: 3%;
+   font-size: 24px;
+}
+
+.icon{
+  font-size: 48px;
+}
+
+p{
+    font-weight: bold;
+ 
+}
+
+#cityname{
+    margin-top: -45%;
+    font-size: 24px;
+}
